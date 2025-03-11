@@ -7,3 +7,7 @@ first_number = float(input("Enter the first number: "))
 second_number = float(input("Enter the second number: "))
 
 # Compare and Print the bigger number
+if first_number > second_number:
+    print(f'The bigger number is: {first_number}')
+else:
+    print(f'The bigger number is: {second_number}')
