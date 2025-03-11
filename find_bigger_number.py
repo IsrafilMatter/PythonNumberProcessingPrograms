@@ -9,5 +9,7 @@ second_number = float(input("Enter the second number: "))
 # Compare and Print the bigger number
 if first_number > second_number:
     print(f'The bigger number is: {first_number}')
-else:
+elif first_number < second_number:
     print(f'The bigger number is: {second_number}')
+else:
+    print('Both numbers are equal')
