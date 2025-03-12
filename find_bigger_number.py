@@ -1,4 +1,4 @@
-# find_bigger_number
+# Create a program that ask user to input 2 numbers. Print the bigger number.
 # Author: Israfil Palabay
 # Date: March 11, 2024
 
