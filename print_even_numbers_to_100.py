@@ -3,4 +3,5 @@
 # Date: March 12, 2024
 
 # Loop through numbers from 0 to 100 with a step of 2 (even numbers)
-# Print the current even number
+for index in range(0, 101, 2):
+    print(index) # Print the even number
