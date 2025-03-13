@@ -7,3 +7,7 @@ first_number = float(input("Enter the first number: "))
 second_number = float(input("Enter the second number: "))
 
 # Check for inequality and print
+if first_number != second_number:
+    print("Not Equal")
+else:
+    print("Equal")
