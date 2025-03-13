@@ -15,3 +15,8 @@ while True:
         break # If input is invalid, break the loop
     
 # If the list is not empty, find and print the highest number
+if numbers:
+    highest = max(numbers)
+    print(f"\nThe highest number is: {highest}")
+else:
+    print("\nNo valid numbers were entered.") 
