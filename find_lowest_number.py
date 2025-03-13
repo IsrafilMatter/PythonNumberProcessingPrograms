@@ -14,6 +14,8 @@ while True:
     except ValueError:
         break
     
-# If input is numeric, store it in the list
-# If input is invalid, break the loop
-# If the list is not empty, find and print the lowest number
+if numbers:
+    lowest = min(numbers)
+    print(f'\nThe lowest number is: {lowest}')
+else:
+    print('\nNo valid numbers were entered')
