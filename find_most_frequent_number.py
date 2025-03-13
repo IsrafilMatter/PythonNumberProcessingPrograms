@@ -7,4 +7,11 @@ numbers = []
 print("Enter numbers (enter any non-numeric value to stop):")
 
 # Ask the user to input number and Enter any non-numeric value to stop
+while True:
+    try:
+        num = float(input("Enter a number: "))
+        numbers.append(num)
+    except ValueError:
+        break
+    
 # Find the most frequent number
