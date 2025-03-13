@@ -1,6 +1,6 @@
 # Python Number Processing Programs
 
-This repository contains a collection of Python programs demonstrating various number processing techniques, mathematical operations, and input handling. The programs are organized into four batches, each focusing on different aspects of number manipulation.
+This repository contains a collection of Python programs demonstrating various number processing techniques, mathematical operations, and input handling. The programs are organized, each focusing on different aspects of number manipulation.
 
 ## Basic Number Operations
 1. **Number Comparison**
