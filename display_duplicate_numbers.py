@@ -17,4 +17,11 @@ for index in range(10):
             print("Invalid input. Please enter a valid number.")
             
 # Find numbers with duplicates
+duplicate_numbers = []
+seen = set()
+for num in numbers:
+    if numbers.count(num) > 1 and num not in seen:
+        duplicate_numbers.append(num)
+        seen.add(num)
+        
 # Display numbers with duplicates
