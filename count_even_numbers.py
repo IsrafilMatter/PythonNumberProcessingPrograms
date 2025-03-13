@@ -11,5 +11,5 @@ for index in range(10):
     numbers.append(num)
     
 # Count even numbers 
-even_count = sum(1 for num index in numbers if num % 2 == 0)
-print(f'Number of even numbers: {even_count}')
+even_count = sum(1 for num in numbers if num % 2 == 0)
+print('Number of even numbers:', even_count)
