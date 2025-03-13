@@ -17,3 +17,10 @@ for index in range(10):
             print("Invalid input. Please enter a valid number.")
             
 # Display first occurrence of each number
+print('\nNumbers (first occurrence only):')
+seen = set()
+for num in numbers:
+    if num not in seen:
+        print(num, end=" ")
+        seen.add(num)
+print()
