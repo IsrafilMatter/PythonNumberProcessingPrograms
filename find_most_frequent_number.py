@@ -15,3 +15,17 @@ while True:
         break
     
 # Find the most frequent number
+if numbers:
+    
+    max_count = 0
+    most_frequent = numbers[0]
+    
+    for num in numbers:
+        count = numbers.count(num)
+        if count > max_count:
+            max_count = count
+            most_frequent = num
+    
+    print(f"\nThe most frequent number is: {most_frequent} (appears {max_count} times)")
+else:
+    print("\nNo valid numbers were entered.") 
