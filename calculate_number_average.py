@@ -7,6 +7,11 @@ numbers = []
 print("Enter numbers (enter any non-numeric value to stop):")
 
 # Use a loop to keep asking for user input.
-# If input is numeric, store it in the list
-# If input is invalid, break the loop
+while True:
+    try:
+        num = float(input("Enter a number: ")) 
+        numbers.append(num) # If input is numeric, store it in the list
+    except ValueError:
+        break # If input is invalid, break the loop
+    
 # If the list is not empty, find and print the following: The average, the highest number, the lowest number
