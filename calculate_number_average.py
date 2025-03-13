@@ -15,3 +15,8 @@ while True:
         break # If input is invalid, break the loop
     
 # If the list is not empty, find and print the following: The average, the highest number, the lowest number
+if numbers:
+    average = sum(numbers) / len(numbers)
+    print(f"\nThe average is: {average:.2f}")
+else:
+    print("\nNo valid numbers were entered.") 
