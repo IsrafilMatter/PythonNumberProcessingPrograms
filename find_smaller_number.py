@@ -1,4 +1,4 @@
-# Create a program that ask user to input 2 numbers. Print the smaller number.
+# Ask user to input 2 numbers. Print the smaller number.
 # Author: Israfil Palabay
 # Date: March 13, 2025
 

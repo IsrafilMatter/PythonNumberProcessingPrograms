@@ -1,4 +1,4 @@
-# Create a program that ask user to input 2 numbers. Print the difference of the two numbers.
+# Ask user to input 2 numbers. Print the difference of the two numbers.
 # Author: Israfil Palabay
 # Date: March 13, 2025
 

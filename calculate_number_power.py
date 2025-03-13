@@ -1,6 +1,6 @@
 # Print the result when the first number is raised to the second number
 # Author: Israfil Palabay
-# Date: March 12, 2024
+# Date: March 12, 2025
 
 # Ask the user to input 2 numbers
 first_number = float(input("Enter the first number: "))

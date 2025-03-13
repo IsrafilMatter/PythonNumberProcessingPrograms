@@ -1,6 +1,6 @@
 # Print how many are odd numbers
 # Author: Israfil Palabay
-# Date: March 12, 2024
+# Date: March 12, 2025
 
 # Create a list of 10 numbers inputted by the user
 numbers = [float(input(f'Enter number {index + 1}: ')) for index in range(10)]
