@@ -7,4 +7,5 @@ first_number = float(input("Enter the first number: "))
 second_number = float(input("Enter the second number: "))
 
 # Perform integer division to remove the decimal part.
-# Print the quotient
+quotient = first_number // second_number
+print('The quotient without the decimal point is:', quotient) # Print the quotient
