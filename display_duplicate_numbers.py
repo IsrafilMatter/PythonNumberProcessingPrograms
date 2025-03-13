@@ -25,3 +25,10 @@ for num in numbers:
         seen.add(num)
         
 # Display numbers with duplicates
+if duplicate_numbers:
+     print("\nNumbers that have duplicates:")
+    for num in duplicate_numbers:
+        print(num, end=" ")
+    print()
+else:
+    print("\nNo numbers have duplicates.") 
