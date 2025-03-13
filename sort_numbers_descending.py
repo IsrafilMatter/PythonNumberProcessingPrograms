@@ -1,4 +1,4 @@
-# Program that continuously asks for numbers until invalid input and finds the highest number
+# Program that continuously asks for numbers until invalid input and sorts them in descending order
 # Author: Israfil Palabay
 # Date: March 13, 2025
 
@@ -14,4 +14,12 @@ while True:
     except ValueError:
         break # If input is invalid, break the loop
 
-# If the list is not empty, find and print the highest and lowest numbers
+# Sort numbers in descending order
+if numbers:
+    numbers.sort(reverse=True)  
+    print("\nNumbers in descending order:")
+    for num in numbers:
+        print(num, end=" ")
+    print()
+else:
+    print("\nNo valid numbers were entered.") 
