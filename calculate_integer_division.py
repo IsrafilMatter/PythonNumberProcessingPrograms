@@ -3,5 +3,8 @@
 # Date: March 13, 2025
 
 # Get two numbers from the user.
+first_number = float(input("Enter the first number: "))
+second_number = float(input("Enter the second number: "))
+
 # Perform integer division to remove the decimal part.
 # Print the quotient
