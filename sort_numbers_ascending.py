@@ -15,3 +15,11 @@ while True:
         break # If input is invalid, break the loop
     
 # If the list is not empty: Sort and display numbers in ascending order
+if numbers:
+    numbers.sort()  # Sort numbers in ascending order
+    print("\nNumbers in ascending order:")
+    for num in numbers:
+        print(num, end=" ")
+    print()
+else:
+    print("\nNo valid numbers were entered.") 
