@@ -7,5 +7,14 @@ numbers = []
 print("Enter 10 numbers:")
 
 # Get 10 numbers from user
+for index in range(10):
+    while True:
+        try:
+            num = float(input(f"Enter number {index + 1}: "))
+            numbers.append(num)
+            break
+        except ValueError:
+            print("Invalid input. Please enter a valid number.")
+            
 # Find numbers with duplicates
 # Display numbers with duplicates
