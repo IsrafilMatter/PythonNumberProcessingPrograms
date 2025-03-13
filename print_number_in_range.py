@@ -10,6 +10,8 @@ second_number = int(input('Enter the second number: '))
 start = min(first_number, second_number)
 end = max(first_number, second_number)
 
-# Loop through the numbers between them (excluding the input numbers)
-for num in range(start + 1, end):
-    print(num) # Print each number
+if start == end:
+    print('There is no numbers between the given values')
+else:
+    for num in range(start + 1, end):
+        print(num) # Print each number
