@@ -4,6 +4,7 @@
 
 # Loop through numbers from 0 to 100
 for num in range(101):
-    print(num)
+    
 # Check if the last digit is NOT 0 or 5.
-# If the condition is met, print the number
+    if num % 10 not in {0, 5}:
+        print(num) # If the condition is met, print the number
