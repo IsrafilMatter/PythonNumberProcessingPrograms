@@ -3,6 +3,9 @@
 # Date: March 13, 2025
 
 # Initialize
+numbers = []
+print("Enter numbers (enter any non-numeric value to stop):")
+
 # Use a loop to keep asking for user input
 # If input is numeric, store it in the list
 # If input is invalid, break the loop
