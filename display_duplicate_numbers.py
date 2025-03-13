@@ -26,7 +26,7 @@ for num in numbers:
         
 # Display numbers with duplicates
 if duplicate_numbers:
-     print("\nNumbers that have duplicates:")
+    print("\nNumbers that have duplicates:")
     for num in duplicate_numbers:
         print(num, end=" ")
     print()
