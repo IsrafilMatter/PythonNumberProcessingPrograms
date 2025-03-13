@@ -11,3 +11,8 @@ for index in range(10):
     numbers.append(num)
     
 # Ensure the list has at least one number before performing calculations
+if len(numbers) > 0: 
+    result = numbers [0] - sum(numbers[1:]) # Computing the result
+    print(f'The result of {numbers[0]} minus all the remaining numbers is: {result}')
+else:
+    print('Error: No numbers entered.')
