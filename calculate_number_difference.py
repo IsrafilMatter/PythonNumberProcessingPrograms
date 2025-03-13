@@ -7,3 +7,4 @@ first_number = float(input("Enter the first number: "))
 second_number = float(input("Enter the second number: "))
 
 # Get the difference and Print the results
+print(first_number - second_number)
