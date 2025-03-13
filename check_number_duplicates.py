@@ -2,8 +2,7 @@
 # Author: Israfil Palabay
 # Date: March 13, 2025
 
-# Create an empty list to store numbers.
-# Create an empty set to track unique numbers.
-# Use a loop to keep asking for user input.
-# If input is numeric, check if it's a duplicate.
-# If input is invalid, exit the loop.
+# Initilize
+numbers = []
+unique_numbers = set() # Set for efficient duplicate checking
+print("Enter numbers (enter any non-numeric value to stop):")
