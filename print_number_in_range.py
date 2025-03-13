@@ -7,5 +7,9 @@ first_number = int(input('Enter the first number: '))
 second_number = int(input('Enter the second number: '))
                     
 # Determine the smaller and larger number to handle any order of input
+start = min(first_number, second_number)
+end = max(first_number, second_number)
+
 # Loop through the numbers between them (excluding the input numbers)
-# Print each number
+for num in range(start + 1, end):
+    print(num) # Print each number
